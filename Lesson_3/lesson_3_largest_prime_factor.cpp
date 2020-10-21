@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-void largest_prime_factor(uint64_t num) {
+uint64_t largest_prime_factor(uint64_t num) {
     uint64_t cnt = 0;
     uint64_t   i = 0;
     while (num % 2 == 0) {
@@ -11,18 +11,18 @@ void largest_prime_factor(uint64_t num) {
     }
     for (i = 3; i <= num; i += 1) {
         while (num % i == 0) {
-            cnt = max(cnt, i);
+            cnt = i;
             num = num / i;
         }
     }
-    cout << cnt << "\n";
+    return cnt;
 }
 
 int main() {
-    largest_prime_factor(16);
-    largest_prime_factor(225);
-    largest_prime_factor(13195);
-    largest_prime_factor(600851475143);
+    cout << largest_prime_factor(7) << endl;
+    cout << largest_prime_factor(513) << endl;
+    cout << largest_prime_factor(13195) << endl;
+    cout << largest_prime_factor(600851475143) << endl;
     return 0;
 }
 
@@ -32,3 +32,4 @@ int main() {
 // Prime if (6n+1)% num == 0
 
 // Prime if (a^p - a) % p == 0 (a <= 1 < p)
+// Prime if coefficents are multiple of num (x+1)^p - (x^p-1)
