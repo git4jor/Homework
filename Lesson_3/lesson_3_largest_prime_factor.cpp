@@ -10,7 +10,7 @@ uint64_t largest_prime_factor(uint64_t num) {
         num = num / 2;
     }
     for (i = 3; i <= num; i += 1) {
-        while (num % i == 0) {
+        if (num % i == 0) {
             cnt = i;
             num = num / i;
         }
