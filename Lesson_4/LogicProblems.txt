@@ -1,0 +1,30 @@
+==================================================================================
+Problem 1: Eating garbage
+You're having a conversation with a friend about your favorite foods.
+He says to you, "My favorite food is the one where you throw away the
+outside and cook the inside, then you eat the outside and throw away the inside!"
+
+What food is he talking about?
+եթե նորմալ ուտելիք՝ Ձուկ     (առնում ես մաքրում ես թեփուկները, ժառիտ ես անում,
+                              միսը ուտում ես, փշերնե հանում ես)
+
+բզբզալու՝           Ադի-Բուդի(քաղում ես մաքրում ես վրի կանաչը(են մազմզուկներնե),
+                              հետո ժառիտ ես անում,վրինը ուտում ես մեջինն Էլ չես ուտում։)
+
+==================================================================================
+Problem 2: Cake Slicing
+You have a delicious round birthday cake.
+How many equal-sized pieces can you cut the cake into by making only three
+straight slices with a knife and without moving any of the pieces?
+
+Էս մեկը գիտեի 8 կտոր (մի հատնե մջտեղից ես կտրում)
+==================================================================================
+Problem 3: Halfway Glass
+You are in an empty room with a glass of water.
+The glass is a right cylinder that looks like it is about half-full,
+but you are not quite sure. What is the most accurate way, without spilling any water,
+to determine whether the glass is half-full, more than half-full, or less than half-full?
+
+թեքում ես մինչև չթափվի, ու նայում ես ներքևի ու վերևի կտորներին, եթե ներքևում դատարկա,
+այսինքն չի կպնում տակի անկյունին ուրեմն ջուրը կեսից քիչա, եթե վերևի անյունը սենց բարակա,
+իսկ տակը սեղանի նման տեսքա ստացե ուրեմն ջուրը կեսից շատա։ մնացած դեպքերում հավասար կարանք համարենք։
